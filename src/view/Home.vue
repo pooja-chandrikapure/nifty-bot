@@ -170,7 +170,7 @@ const redirectToTg = () => {
 
     if (campaign === "camp1") {
         telegramLink = "https://t.me/+v0csWHba34lhMjY1";
-    }else if (campaign === "camp2") {
+    } else if (campaign === "camp2") {
         telegramLink = "https://t.me/+GR9e4wp_zfwwYmY1"
     } else if (campaign === "camp3") {
         telegramLink = "https://t.me/+2qT3h40yT9FiM2I1"
