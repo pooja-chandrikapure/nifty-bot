@@ -45,6 +45,16 @@
                 <p class="text-gray-400 mt-2 text-md font-medium flex items-center justify-center gap-2">
                     (100% Educational | No financial advice)
                 </p>
+            </div>
+            <!-- Important Warning -->
+            <div class="bg-red-500/10 border border-red-500/30 rounded-lg p-3 mt-5 text-sm text-white text-center">
+                ⚠️ <span class="font-semibold">IMPORTANT:</span> Don’t Miss This Step  
+                <br /><br />
+                Most users click the button but forget to tap <b>"JOIN"</b> inside Telegram  
+                <br /><br />
+                ❌ If you don’t tap JOIN, access will not be available  
+                <br /><br />
+                👉 Smart traders complete the final step and get instant access
             </div>  
 
 
@@ -109,10 +119,10 @@ const redirectToTg = () => {
     const params = new URLSearchParams(window.location.search)
     const campaign = params.get('utm_campaign')
 
-    let telegramLink = "https://tinyurl.com/9kb97cwx"  // default (original link)
+    let telegramLink = "https://t.me/+v0csWHba34lhMjY1"  // default (original link)
 
     if (campaign === "camp1") {
-        telegramLink = "https://t.me/+rjxI_6nSGWEzMzll"
+        telegramLink = "https://t.me/+v0csWHba34lhMjY1"
     } else if (campaign === "camp2") {
         telegramLink = "https://t.me/+ByqRz_MgVJs4NmZl"
     } else if (campaign === "camp3") {
