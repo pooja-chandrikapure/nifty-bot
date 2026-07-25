@@ -166,16 +166,16 @@ const redirectToTg = () => {
     const params = new URLSearchParams(window.location.search);
     const campaign = params.get('utm_campaign');
 
-    let telegramLink = "https://t.me/+v0csWHba34lhMjY1"; // default (original link)
+    let telegramLink = "https://t.me/+_I-ddHBbe-g0OTc1"; // default (original link)
 
     if (campaign === "camp1") {
-        telegramLink = "https://t.me/+v0csWHba34lhMjY1";
-    // } else if (campaign === "camp2") {
-    //     telegramLink = "https://t.me/+GR9e4wp_zfwwYmY1"
-    // } else if (campaign === "camp3") {
-    //     telegramLink = "https://t.me/+2qT3h40yT9FiM2I1"
-    // } else if (campaign === "camp4") {
-    //     telegramLink = "https://t.me/+SjXso73_SZtlNjc9"
+        telegramLink = "https://t.me/+_I-ddHBbe-g0OTc1";
+    } else if (campaign === "camp2") {
+        telegramLink = "https://t.me/+Ptk0PDL3Tb00OTc1"
+    } else if (campaign === "camp3") {
+        telegramLink = "https://t.me/+5OukF1zFiaU2MzM1"
+    } else if (campaign === "camp4") {
+        telegramLink = "https://t.me/+8oLPeuxPJx1iMmNl"
     }
 
     if (window.fbq) {
